@@ -18,6 +18,9 @@ body {
 
 nav {
     width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 #nav-content {
@@ -31,6 +34,17 @@ nav {
 #logo {
     height: 40px;
     margin: 25px 0 25px 15px;
+}
+
+.apply-button {
+    padding: 10px;
+    background-color: rgb(236, 0, 0);
+    color: #fff;
+    border: none;
+}
+
+.apply-button:hover {
+    background-color: #000;
 }
 
 #banner {
@@ -162,16 +176,8 @@ nav {
     font-size: 18px;
 }
 
-#visit button {
-    padding: 10px;
-    background-color: rgb(236, 0, 0);
-    color: #fff;
+#visit .apply-button {
     margin-bottom: 100px;
-    border: none;
-}
-
-#visit button:hover {
-    background-color: #000;
 }
 
 footer {
